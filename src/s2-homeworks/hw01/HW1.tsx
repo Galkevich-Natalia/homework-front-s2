@@ -54,6 +54,7 @@ const HW1 = () => {
     return (
         <div id={'hw1'}>
             <div className={s2.hwTitle}>Homework #1</div>
+            <hr style={{ border: 'none', borderTop: '2px solid #D9D9D9', margin: '10px 0 24px 0' }} />
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>
@@ -64,6 +65,7 @@ const HW1 = () => {
                 {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message} />
             </div>
+            <hr style={{ border: 'none', borderTop: '2px solid #D9D9D9', margin: '32px 0 37px 0' }} />
         </div>
     )
 }

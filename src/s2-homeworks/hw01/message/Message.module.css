@@ -54,5 +54,6 @@
 .time {
   text-align: end;
   font-size: 10px;
+  font-weight: 600;
   padding: 5px 10px;
 }

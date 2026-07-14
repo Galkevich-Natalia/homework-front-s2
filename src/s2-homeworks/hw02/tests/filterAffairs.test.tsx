@@ -1,5 +1,6 @@
 import React from 'react'
 import { AffairType, filterAffairs } from '../HW2'
+import { test, beforeEach, expect } from 'vitest'
 
 let initialState: AffairType[]
 
