@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import Affairs from './affairs/Affairs'
 import s2 from '../../s1-main/App.module.css'
 
@@ -74,7 +74,7 @@ function HW2() {
                     filter={filter}
                 /> 
             </div>
-            <hr style={{ border: 'none', borderTop: '2px solid #D9D9D9', margin: '73px 0 134px 0' }} />
+            <hr style={{ border: 'none', borderTop: '2px solid #D9D9D9', margin: '74px 0 40px 0' }} />
         </div>
     )
 }

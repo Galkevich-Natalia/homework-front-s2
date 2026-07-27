@@ -1,5 +1,5 @@
-import React from 'react'
 import {pureOnEnter} from '../GreetingContainer'
+import { beforeEach, expect, test } from 'vitest'
 
 let added: any
 const addUser = () => {

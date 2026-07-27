@@ -1,5 +1,5 @@
-import React from 'react'
 import {pureAddUserCallback} from '../HW3'
+import { beforeEach, expect, test } from 'vitest'
 
 let initialState: any[]
 const setName = (a: any[]) => {

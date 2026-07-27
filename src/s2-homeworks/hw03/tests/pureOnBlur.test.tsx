@@ -1,5 +1,5 @@
-import React from 'react'
 import {pureOnBlur} from '../GreetingContainer'
+import { beforeEach, expect, test } from 'vitest'
 
 let name: any
 let error: any
