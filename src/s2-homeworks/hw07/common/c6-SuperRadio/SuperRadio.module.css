@@ -9,7 +9,16 @@
 }
 
 .label {
+    margin-bottom: 20px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 20px;
+    height:20px;
+    accent-color: black;
 }
