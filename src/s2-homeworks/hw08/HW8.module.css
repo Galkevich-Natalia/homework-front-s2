@@ -8,16 +8,23 @@
 }
 
 .buttonsContainer {
+    display: flex;
+    gap: 12px
 }
 
 .container {
 }
 
 .thead {
+    background-color: #E5E5E5;
 }
 
 .nameCol {
+    font-size: 16px;
+    font-weight: 600
 }
 
 .ageCol {
+    font-size: 14px;
+    font-weight: 500
 }

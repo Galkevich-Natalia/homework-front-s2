@@ -19,12 +19,12 @@ export type UserType = {
 
 const initialPeople: UserType[] = [
     // студенты могут поменять имя/возраст/количество объектов, _id должны быть целочисленные
-    {_id: 0, name: 'Кот', age: 3},
-    {_id: 1, name: 'Александр', age: 66},
-    {_id: 2, name: 'Коля', age: 16},
-    {_id: 3, name: 'Виктор', age: 44},
-    {_id: 4, name: 'Дмитрий', age: 40},
-    {_id: 5, name: 'Ирина', age: 55},
+    {_id: 0, name: 'Аладинов Антон', age: 16},
+    {_id: 1, name: 'Бориславов Макс', age: 23},
+    {_id: 2, name: 'Тимошин Роман', age: 19},
+    {_id: 3, name: 'Макаров Михаил', age: 54},
+    // {_id: 4, name: 'Дмитрий', age: 40},
+    // {_id: 5, name: 'Ирина', age: 55},
 ]
 
 const HW8 = () => {
@@ -56,6 +56,7 @@ const HW8 = () => {
     return (
         <div id={'hw3'}>
             <div className={s2.hwTitle}>Homework #8</div>
+            <hr style={{ border: 'none', borderTop: '2px solid #D9D9D9', margin: '10px 0 32px 0' }} />
             <div className={s2.hw}>
                 <div className={s.container}>
                     <div className={s.buttonsContainer}>
@@ -85,7 +86,7 @@ const HW8 = () => {
                     <table id={'hw8-users'} className={s.users}>
                         <thead className={s.thead}>
                         <tr>
-                            <td className={s.nameCol}>Name</td>
+                            <td className={s.nameCol}>Full name</td>
                             <td className={s.ageCol}>Age</td>
                         </tr>
                         </thead>
